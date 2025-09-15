@@ -3,6 +3,7 @@ import React from "react";
 import ButtonA from "../components/Button";
 import ImageComponents from "../components/ImageComponents";
 import Car from "../components/Car";
+import Todo from "../components/Todo";
 
 const index = () => {
   return (
@@ -15,7 +16,8 @@ const index = () => {
         My name is ali ahed and i love coding
       </Text>
       <Button title="press me" /> */}
-      <Car />
+      {/* <Car /> */}
+      <Todo />
     </View>
   );
 };
