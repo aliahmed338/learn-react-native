@@ -1,8 +1,10 @@
-import { View, Text, Button } from "react-native";
+import { View } from "react-native";
 import React from "react";
-import ButtonA from "../components/Button";
-import ImageComponents from "../components/ImageComponents";
-import Car from "../components/Car";
+import "../../index.css";
+
+// import ButtonA from "../components/Button";
+// import ImageComponents from "../components/ImageComponents";
+// import Car from "../components/Car";
 import Todo from "../components/Todo";
 
 const index = () => {
@@ -19,6 +21,11 @@ const index = () => {
       {/* <Car /> */}
       <Todo />
     </View>
+    // <View className="flex-1 my-80 items-center justify-center bg-white">
+    //   <Text className="text-xl font-bold text-blue-500">
+    //     Welcome to Nativewind!ssssss
+    //   </Text>
+    // </View>
   );
 };
 
